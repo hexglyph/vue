@@ -1,32 +1,35 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <div class="bg-slate-800 pb-4">
+      <div class="flex w-full h-full justify-center items-center dark:bg-black">
+        <div class="container">
+          <div class="flex flex-col justify-center items-stretch">
+            <div class="flex w-full h-screen">
+              <h1 class="text-7xl text-white font-extrabold mr-4">
+                <span
+                  class="
+                    bg-clip-text
+                    text-transparent
+                    bg-gradient-to-r
+                    from-white
+                    to-slate-400/90
+                    dark:bg-gradient-to-r dark:from-sky-500 dark:to-pink-300
+                  "
+                >
+                  Teste no Vue
+                </span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
-<style lang="scss">
+<style lang="css">
+@import "./assets/css/main.css";
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 </style>
