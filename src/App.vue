@@ -1,33 +1,33 @@
 <template>
   <div id="app">
-    <div class="bg-slate-800 pb-4">
-      <div class="flex w-full h-full justify-center items-center dark:bg-black">
-        <div class="container">
-          <div class="flex flex-col justify-center items-stretch">
-            <div class="flex w-full h-screen">
-              <h1 class="text-7xl text-white font-extrabold mr-4">
-                <span
-                  class="
-                    bg-clip-text
-                    text-transparent
-                    bg-gradient-to-r
-                    from-white
-                    to-slate-400/90
-                    dark:bg-gradient-to-r dark:from-sky-500 dark:to-pink-300
-                  "
-                >
-                  Teste no Vue
-                </span>
-              </h1>
-            </div>
-          </div>
+    <div class="bg-zinc-800">
+      <div class="flex flex-col w-full h-full dark:bg-black">
+        <div class="flex w-full p-2">
+          <p class="text-2xl text-white font-semibold">
+            <span
+              class="
+                bg-clip-text
+                text-transparent
+                bg-gradient-to-r
+                from-white
+                to-zinc-200/90
+                dark:bg-gradient-to-r dark:from-white dark:to-zinc-100
+              "
+            >
+              Versões de frontend para projetos - PRODAM 2022 - Vue 2 [Tailwind
+              + Vuetify]
+            </span>
+          </p>
         </div>
+
+        <router-view />
       </div>
     </div>
   </div>
 </template>
 
-<style lang="css">
+<style>
+/*@import "/src/sass/variables.scss";*/
 @import "./assets/css/main.css";
 
 #app {

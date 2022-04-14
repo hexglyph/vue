@@ -1,0 +1,28 @@
+@import "~vuetify/src/styles/settings/_variables.scss";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Globals
+$body-font-family: 'Poppins', serif !default;
+$heading-font-family: $body-font-family;
+$headings: (
+    'h1': (
+        'font-family': $heading-font-family,
+    ),
+    'h2': (
+        'font-family': $heading-font-family,
+    ),
+    'h3': (
+        'font-family': $heading-font-family,
+    ),
+    'h4': (
+        'font-family': $heading-font-family,
+    ),
+    'h5': (
+        'font-family': $heading-font-family,
+    ),
+    'h6': (
+        'font-family': $heading-font-family,
+    ),
+);

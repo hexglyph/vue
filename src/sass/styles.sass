@@ -1,0 +1,17 @@
+@import '~vuetify/src/styles/styles.sass';
+@import 'variables';
+
+$body-font-family: 'Poppins', serif;
+
+$heading-font-family: $body-font-family, serif;
+
+@each $heading, $style in $headings {
+    $headings: map-merge($headings, ($heading: map-merge($style, ('font-family': $heading-font-family))));
+}
+
+.v-application {
+   font-family: $body-font-family, sans-serif !important;
+    .title { // To pin point specific classes of some components
+       font-family: $title-font, sans-serif !important;
+    }
+ }
