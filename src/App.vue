@@ -14,8 +14,8 @@
                 dark:bg-gradient-to-r dark:from-white dark:to-zinc-100
               "
             >
-              Versões de frontend para projetos - PRODAM 2022 - Vue 2 [Tailwind
-              + Vuetify]
+              Versões 2 de frontend para projetos - PRODAM 2022 - Vue 2
+              [Tailwind + Vuetify]
             </span>
           </p>
         </div>
